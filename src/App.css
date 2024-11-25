@@ -46,6 +46,11 @@
   text-decoration: underline;
 }
 
+.carrito{
+  color: white;
+  cursor: pointer;
+}
+
 .productos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

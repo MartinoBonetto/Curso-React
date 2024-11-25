@@ -11,6 +11,7 @@ export const Navbar = () => {
                 <li><Link to="/Productos/Gabinetes" className='menuLink'>Gabinetes</Link></li>
                 <li><Link to="/productos/Memorias" className='menuLink'>Memorias</Link></li>
                 <li><Link to="/productos/Placas de video" className='menuLink'>Placas de video</Link></li>
+                <li className='carrito'><i class="bi bi-cart"></i></li>
             </ul>
         </nav>
     )
