@@ -1,25 +1,17 @@
-import React from "react";
-import './NavBar.css'
-import "./CartWidget.jsx"
-import CartWidget from "./CartWidget.jsx";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Navbar(){
+export const Navbar = () => {
     return (
-        <>
-            <header className="header">
-                <a href="" className="logo">DARKS GAMERS</a>
-
-                <nav className="navbar">
-                    <a href="#">Todos los productos</a>
-                    <a href="#">Procesadores</a>
-                    <a href="#">Gabinetes</a>
-                    <a href="#">Memorias</a>
-                    <a href="#">Placas de video</a>
-                    <CartWidget />
-                </nav>
-            </header>
-        </>
+        <nav className='barra'>
+            <Link to="/" className='logo'>DARKS GAMERS</Link>
+            <ul className='menu'>
+                <li><Link to="/" className='menuLink'>Productos</Link></li>
+                <li><Link to="/productos/Procesadores" className='menuLink'>Procesadores</Link></li>
+                <li><Link to="/Productos/Gabinetes" className='menuLink'>Gabinetes</Link></li>
+                <li><Link to="/productos/Memorias" className='menuLink'>Memorias</Link></li>
+                <li><Link to="/productos/Placas de video" className='menuLink'>Placas de video</Link></li>
+            </ul>
+        </nav>
     )
 }
-
-export default Navbar

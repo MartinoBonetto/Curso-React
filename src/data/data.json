@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "titulo": "Ryzen 5 3600",
+        "descripcion": "Procesador ryzen 5 3600",
+        "imagen": "../img/Procesadores/Ryzen5-3600.jpg",
+        "categoria": "Procesadores",
+        "precio": 115000
+    },
+    {
+        "id": 2,
+        "titulo": "Ryzen 3 3200G",
+        "descripcion": "Procesador ryzen 3 3200G",
+        "imagen": "../img/Procesadores/Ryzen3-3200g.jpg",
+        "categoria": "Procesadores",
+        "precio": 73900
+    },
+    {
+        "id": 3,
+        "titulo": "Ryzen 5 5600X",
+        "descripcion": "Procesador ryzen 5 5600X",
+        "imagen": "../img/Procesadores/Ryzen 5-5600x.jpg",
+        "categoria": "Procesadores",
+        "precio": 208000
+    },
+    {
+        "id": 4,
+        "titulo": "Ryzen 7 5800X",
+        "descripcion": "Procesador ryzen 7 5800X",
+        "imagen": "../img/Procesadores/Ryzen7-5800x.jpg",
+        "categoria": "Procesadores",
+        "precio": 304900
+    },
+    {
+        "id": 5,
+        "titulo": "Intel Core i5 14400F",
+        "descripcion": "Procesador Intel Core i5 14400F",
+        "imagen": "../img/Procesadores/i5-14400f.jpg",
+        "categoria": "Procesadores",
+        "precio": 224185
+    },
+    {
+        "id": 6,
+        "titulo": "Intel Core i5 14600K",
+        "descripcion": "Procesador Intel Core i5 14600K",
+        "imagen": "../img/Procesadores/i5-14600k.jpg",
+        "categoria": "Procesadores",
+        "precio": 344154
+    },
+    {
+        "id": 7,
+        "titulo": "Intel Core i7 14700K",
+        "descripcion": "Procesador Intel Core i7 14700K",
+        "imagen": "../img/Procesadores/i7-14700k.jpg",
+        "categoria": "Procesadores",
+        "precio": 510306
+    },
+    {
+        "id": 8,
+        "titulo": "Intel Core i7 14700KF",
+        "descripcion": "Procesador Intel Core i7 14700KF",
+        "imagen": "../img/Procesadores/i7-14700kf.jpg",
+        "categoria": "Procesadores",
+        "precio": 488379
+    },
+
+
+    {
+        "id": 9,
+        "titulo": "Corsair 4000D",
+        "descripcion": "Gabinete Corsair 4000D",
+        "imagen": "../img/Gabinetes/corsair-4000d.jpg",
+        "categoria": "Gabinetes",
+        "precio": 109600
+    },
+    {
+        "id": 10,
+        "titulo": "Corsair ICUE 4000X",
+        "descripcion": "Gabinete Corsair ICUE 4000X",
+        "imagen": "../img/Gabinetes/corsair-icue400x.jpg",
+        "categoria": "Gabinetes",
+        "precio": 199950
+    },
+    {
+        "id": 11,
+        "titulo": "Cougar MX360",
+        "descripcion": "Gabinete Cougar MX360",
+        "imagen": "../img/Gabinetes/cougar-mx360.jpg",
+        "categoria": "Gabinetes",
+        "precio": 52299
+    },
+    {
+        "id": 12,
+        "titulo": "Kolink Inspire",
+        "descripcion": "Gabinete Kolink Inspire",
+        "imagen": "../img/Gabinetes/kolink-inspire.jpg",
+        "categoria": "Gabinetes",
+        "precio": 54580
+    },
+    {
+        "id": 13,
+        "titulo": "XPG Invader",
+        "descripcion": "Gabinete XPG Invader",
+        "imagen": "../img/Gabinetes/xpg-invader.jpg",
+        "categoria": "Gabinetes",
+        "precio": 89950
+    },
+
+    {
+        "id": 14,
+        "titulo": "Corsair Vengeance",
+        "descripcion": "Memoria Corsair Vengeance",
+        "imagen": "../img/Memorias/corsair-vengeance.jpg",
+        "categoria": "Memorias",
+        "precio": 30790
+    },
+    {
+        "id": 15,
+        "titulo": "Kingston Fury",
+        "descripcion": "Memoria Kingston Fury",
+        "imagen": "../img/Memorias/kingston-fury.jpg",
+        "categoria": "Memorias",
+        "precio": 64466
+    },
+    {
+        "id": 16,
+        "titulo": "Patrior Vaiper",
+        "descripcion": "Memoria patrior Vaiper",
+        "imagen": "../img/Memorias/patrior-vaiper.jpg",
+        "categoria": "Memorias",
+        "precio": 21599
+    },
+    {
+        "id": 17,
+        "titulo": "T-Force Delta",
+        "descripcion": "Memoria T-Force Delta",
+        "imagen": "../img/Memorias/t-force-delta.jpg",
+        "categoria": "Memorias",
+        "precio": 143580
+    },
+    {
+        "id": 18,
+        "titulo": "Team Elite Plus",
+        "descripcion": "Memoria Team Elite Plus",
+        "imagen": "../img/Memorias/team-elite-plus.jpg",
+        "categoria": "Memorias",
+        "precio": 22430
+    },
+
+    {
+        "id": 19,
+        "titulo": "Readon RX 6650XT",
+        "descripcion": "Placa de video Redon RX 6650XT",
+        "imagen": "../img/Placasvideo/Redon-rx-6650xt.jpg",
+        "categoria": "Placas de video",
+        "precio": 322159
+    },
+    {
+        "id": 20,
+        "titulo": "Readon RX 580",
+        "descripcion": "Placa de video Redon RX 580",
+        "imagen": "../img/Placasvideo/rx-580.jpg",
+        "categoria": "Placas de video",
+        "precio": 152139
+    },
+    {
+        "id": 21,
+        "titulo": "GeForce RTX 4060 Ti",
+        "descripcion": "Placa de video GeForce RTX 4060TI",
+        "imagen": "../img/Placasvideo/rtx-4060.jpg",
+        "categoria": "Placas de video",
+        "precio": 684470
+    },
+    {
+        "id": 22,
+        "titulo": "GeForce RTX 3060",
+        "descripcion": "Placa de video GeForce RTX 3060",
+        "imagen": "../img/Placasvideo/rtx-3060.jpg",
+        "categoria": "Placas de video",
+        "precio": 349770
+    }
+]

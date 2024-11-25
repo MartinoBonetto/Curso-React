@@ -1,42 +1,117 @@
-#root {
-  max-width: 1280px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding-inline: 1.5rem;
   margin: 0 auto;
+}
+
+.titulo {
+  margin-top: 2rem;
+}
+
+.barra {
   padding: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  border-bottom: 3px solid black;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  text-decoration: none;
+  color: white;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.menuLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
 }
 
-.card {
-  padding: 2em;
+.menuLink:hover {
+  text-decoration: underline;
 }
 
-.read-the-docs {
-  color: #888;
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-block: 2rem;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.producto > div {
+  padding: 1rem;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.producto > img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.producto .verMas {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: .5rem;
+  width: max-content;
+  border-radius: .5rem;
+  transition: .2s;
+}
+
+.producto .verMas:hover {
+  background-color: black;
+  color: white;
+}
+
+.productoDetalle {
+  padding-block: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.productoDetalle img {
+  width: 100%;
+}
+
+.productoDetalle-info h3 {
+  font-size: 2rem;
+}
+
+.categoria {
+  font-size: .8rem;
+  color: #424242;
+  margin-top: 1rem;
+}
+
+.precio {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 600;
 }
