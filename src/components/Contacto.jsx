@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 
 function Contacto() {
 
-    const {register, submit} = useForm();
+    const {register, handleSubmit} = useForm();
 
     const enviar = (data) => {
 
@@ -11,7 +11,7 @@ function Contacto() {
     return (
         <div className='container'>
             <h1>Contacto</h1>
-            <form className='formulario' onSubmit={submit(enviar)}>
+            <form className='formulario' onSubmit={handleSubmit(enviar)}>
                 <input type="text" placeholder='Ingresa tu nombre' {...register("nombre")}/>
                 <input type="email" placeholder='Ingresa tu email' {...register("email")}/>
                 <button className='enviar' type='submit'>Enviar</button>
