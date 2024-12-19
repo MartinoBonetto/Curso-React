@@ -3,65 +3,73 @@
         "id": 1,
         "titulo": "Ryzen 5 3600",
         "descripcion": "Procesador ryzen 5 3600",
-        "imagen": "../img/Procesadores/Ryzen5-3600.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_747543-MLU72578974236_112023-O.webp",
         "categoria": "Procesadores",
-        "precio": 115000
+        "precio": 115000,
+        "stock": 10
     },
     {
         "id": 2,
         "titulo": "Ryzen 3 3200G",
         "descripcion": "Procesador ryzen 3 3200G",
-        "imagen": "../img/Procesadores/Ryzen3-3200g.jpg",
+        "imagen": "https://mexx-img-2019.s3.amazonaws.com/36216_2.jpeg",
         "categoria": "Procesadores",
-        "precio": 73900
+        "precio": 73900,
+        "stock": 10
     },
     {
         "id": 3,
         "titulo": "Ryzen 5 5600X",
         "descripcion": "Procesador ryzen 5 5600X",
-        "imagen": "../img/Procesadores/Ryzen 5-5600x.jpg",
+        "imagen": "https://www.deffo.com.ar/wp-content/uploads/2020/07/Ryzen-Small-5-1.jpg",
         "categoria": "Procesadores",
-        "precio": 208000
+        "precio": 208000,
+        "stock": 10
     },
     {
         "id": 4,
         "titulo": "Ryzen 7 5800X",
         "descripcion": "Procesador ryzen 7 5800X",
-        "imagen": "../img/Procesadores/Ryzen7-5800x.jpg",
+        "imagen": "https://m.media-amazon.com/images/I/61IIbwz-+ML._AC_SL1500_.jpg",
         "categoria": "Procesadores",
-        "precio": 304900
+        "precio": 304900,
+        "stock": 10
     },
     {
         "id": 5,
         "titulo": "Intel Core i5 14400F",
         "descripcion": "Procesador Intel Core i5 14400F",
-        "imagen": "../img/Procesadores/i5-14400f.jpg",
+        "imagen": "https://thumbor.arvutitark.ee/uiTGI65onUjKyBvLOfntGemC-ls=/trim/fit-in/400x400/filters:format(webp)/https%3A%2F%2Fstatic.arvutitark.ee%2Fpublic%2Fmedia-hub-olev%2F2024%2F01%2F529663%2Fhpit-820_hpit_820_01.jpg",
         "categoria": "Procesadores",
-        "precio": 224185
+        "precio": 224185,
+        "stock": 10
     },
     {
         "id": 6,
         "titulo": "Intel Core i5 14600K",
         "descripcion": "Procesador Intel Core i5 14600K",
-        "imagen": "../img/Procesadores/i5-14600k.jpg",
+        "imagen": "https://mexx-img-2019.s3.amazonaws.com/Procesador-Intel-Core-i5-14600K-5Ghz-Raptor-Lake-1700-Sin-Cooler_47079_1.jpeg",
         "categoria": "Procesadores",
-        "precio": 344154
+        "precio": 344154,
+        "stock": 10
     },
     {
         "id": 7,
         "titulo": "Intel Core i7 14700K",
         "descripcion": "Procesador Intel Core i7 14700K",
-        "imagen": "../img/Procesadores/i7-14700k.jpg",
+        "imagen": "https://mexx-img-2019.s3.amazonaws.com/Procesador-Intel-Core-i7-14700K-5-Ghz-Raptor-Lake-1700-Sin-Cooler_47087_1.jpeg",
         "categoria": "Procesadores",
-        "precio": 510306
+        "precio": 510306,
+        "stock": 10
     },
     {
         "id": 8,
         "titulo": "Intel Core i7 14700KF",
         "descripcion": "Procesador Intel Core i7 14700KF",
-        "imagen": "../img/Procesadores/i7-14700kf.jpg",
+        "imagen": "https://spacegamer.com.ar/img/Public/1058/producto-1-7048.jpg",
         "categoria": "Procesadores",
-        "precio": 488379
+        "precio": 488379,
+        "stock": 10
     },
 
 
@@ -69,114 +77,128 @@
         "id": 9,
         "titulo": "Corsair 4000D",
         "descripcion": "Gabinete Corsair 4000D",
-        "imagen": "../img/Gabinetes/corsair-4000d.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_908926-MLA43912222136_102020-O.webp",
         "categoria": "Gabinetes",
-        "precio": 109600
+        "precio": 109600,
+        "stock": 10
     },
     {
         "id": 10,
         "titulo": "Corsair ICUE 4000X",
         "descripcion": "Gabinete Corsair ICUE 4000X",
-        "imagen": "../img/Gabinetes/corsair-icue400x.jpg",
+        "imagen": "https://spacegamer.com.ar/img/Public/1058-producto-concepto-5031771-3478.jpg",
         "categoria": "Gabinetes",
-        "precio": 199950
+        "precio": 199950,
+        "stock": 10
     },
     {
         "id": 11,
         "titulo": "Cougar MX360",
         "descripcion": "Gabinete Cougar MX360",
-        "imagen": "../img/Gabinetes/cougar-mx360.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQnpxt0iJTTaCMpy2zuoF0Mjha7Sp4IN-Ew&s",
         "categoria": "Gabinetes",
-        "precio": 52299
+        "precio": 52299,
+        "stock": 10
     },
     {
         "id": 12,
         "titulo": "Kolink Inspire",
         "descripcion": "Gabinete Kolink Inspire",
-        "imagen": "../img/Gabinetes/kolink-inspire.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcsmkyCBJc4QLc7tgvTWrlIdSlfpScyYowRw&s",
         "categoria": "Gabinetes",
-        "precio": 54580
+        "precio": 54580,
+        "stock": 10
     },
     {
         "id": 13,
         "titulo": "XPG Invader",
         "descripcion": "Gabinete XPG Invader",
-        "imagen": "../img/Gabinetes/xpg-invader.jpg",
+        "imagen": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/INVADERXMT-WHCWW.jpg",
         "categoria": "Gabinetes",
-        "precio": 89950
+        "precio": 89950,
+        "stock": 10
     },
 
     {
         "id": 14,
         "titulo": "Corsair Vengeance",
         "descripcion": "Memoria Corsair Vengeance",
-        "imagen": "../img/Memorias/corsair-vengeance.jpg",
+        "imagen": "https://mlx.com.ar/wp-content/uploads/VENGEANCE-RGB-KIT-X2-3-jpg.webp",
         "categoria": "Memorias",
-        "precio": 30790
+        "precio": 30790,
+        "stock": 10
     },
     {
         "id": 15,
         "titulo": "Kingston Fury",
         "descripcion": "Memoria Kingston Fury",
-        "imagen": "../img/Memorias/kingston-fury.jpg",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/018/096/products/0011786_kingston-fury-beast-rgb-8gb-ddr4-3200-kf432c16bba81-8be4e118d608fd45fc16282696153727-480-0.jpeg",
         "categoria": "Memorias",
-        "precio": 64466
+        "precio": 64466,
+        "stock": 10
     },
     {
         "id": 16,
         "titulo": "Patrior Vaiper",
         "descripcion": "Memoria patrior Vaiper",
-        "imagen": "../img/Memorias/patrior-vaiper.jpg",
+        "imagen": "https://www.venex.com.ar/products_images/1610048211_viper_steel_b_web.jpg",
         "categoria": "Memorias",
-        "precio": 21599
+        "precio": 21599,
+        "stock": 10
     },
     {
         "id": 17,
         "titulo": "T-Force Delta",
         "descripcion": "Memoria T-Force Delta",
-        "imagen": "../img/Memorias/t-force-delta.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkyeIfmexCQXaeirploHF0wkyMTCbF_az9ng&s",
         "categoria": "Memorias",
-        "precio": 143580
+        "precio": 143580,
+        "stock": 10
     },
     {
         "id": 18,
         "titulo": "Team Elite Plus",
         "descripcion": "Memoria Team Elite Plus",
-        "imagen": "../img/Memorias/team-elite-plus.jpg",
+        "imagen": "https://images.teamgroupinc.com/products/memory/u-dimm/ddr4/elite-plus/black/01.jpg",
         "categoria": "Memorias",
-        "precio": 22430
+        "precio": 22430,
+        "stock": 10
     },
 
     {
         "id": 19,
         "titulo": "Readon RX 6650XT",
         "descripcion": "Placa de video Redon RX 6650XT",
-        "imagen": "../img/Placasvideo/Redon-rx-6650xt.jpg",
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_2X_941933-CBT81209858538_122024-T.webp",
         "categoria": "Placas de video",
-        "precio": 322159
+        "precio": 322159,
+        "stock": 10
     },
     {
         "id": 20,
         "titulo": "Readon RX 580",
         "descripcion": "Placa de video Redon RX 580",
-        "imagen": "../img/Placasvideo/rx-580.jpg",
+        "imagen": "https://static.gigabyte.com/StaticFile/Image/Global/c91e2082d9a8f87fccdb16483c0b4cfd/Product/17183",
         "categoria": "Placas de video",
-        "precio": 152139
+        "precio": 152139,
+        "stock": 10
     },
     {
         "id": 21,
         "titulo": "GeForce RTX 4060 Ti",
         "descripcion": "Placa de video GeForce RTX 4060TI",
-        "imagen": "../img/Placasvideo/rtx-4060.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgeMfNekAT1PTTnfZPi4Dcp2TYcwK8clUANg&s",
         "categoria": "Placas de video",
-        "precio": 684470
+        "precio": 684470,
+        "stock": 10
     },
     {
         "id": 22,
         "titulo": "GeForce RTX 3060",
         "descripcion": "Placa de video GeForce RTX 3060",
-        "imagen": "../img/Placasvideo/rtx-3060.jpg",
+        "imagen": "https://mexx-img-2019.s3.amazonaws.com/Placa-De-Video-GeForce-RTX-3060-12Gb-Msi-Ventus-2X-OC_47460_1.jpeg",
         "categoria": "Placas de video",
-        "precio": 349770
+        "precio": 349770,
+        "stock": 10
     }
 ]
